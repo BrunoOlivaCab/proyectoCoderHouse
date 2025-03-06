@@ -1,0 +1,523 @@
+
+*{
+
+    font-family: "Poppins", serif;
+
+}
+
+
+
+
+
+/** Header*/
+.navBar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .titulo {
+        
+        font-size:  10vh;
+        }
+
+    background-color:rgb(12, 150, 230);
+ 
+     color: rgb(226, 226, 243);
+
+
+   
+   
+     ul {
+       
+        
+        display: flex;
+
+        
+    }
+   
+
+    img {
+       width: 7%;
+       height: 10%;
+       margin: 10px;
+       border-radius: 5px;
+
+    }
+
+   
+}
+
+.botonNavBar{
+       
+    list-style-type: none;
+   a{ 
+    text-decoration: none;
+    color: inherit;    
+    color: rgb(12, 150, 230);
+   }
+
+    
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 3vh;
+}
+*/
+
+
+.header {
+
+    background-color:rgb(12, 150, 230);
+
+}
+
+
+/** main */
+
+main {
+
+    background-color: rgba(146, 224, 248, 0.39);
+}
+
+
+/* index */
+.subtituloIndex {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+
+.destacadoTienda {
+display: flex;
+align-items:center;
+justify-content: space-between;
+margin: 5rem;
+
+}
+.cardTienda {
+
+    width: 25rem;
+ 
+
+        .imgCamisetas{
+
+            width: 15rem;
+            height: 20rem;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 2rem;
+            
+        }
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:rgb(12, 150, 230); 
+        border-radius: 3rem;
+        margin: 10px;
+        padding: 10px;
+
+        ul {
+
+            margin-right: 3rem;
+            margin-left: 3rem;
+
+        }
+      
+
+}
+
+.botonComprar {
+    text-decoration: none;
+    color: inherit;
+    background-color: white;
+    color: rgb(12, 150, 230);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+
+
+}
+.contenedorVerMas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonVerMas{
+
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:inherit;
+    
+    background-color: rgb(12, 150, 230);
+
+    width: 35rem;
+    color: white;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+
+
+
+
+}
+
+/* contactanos */
+.contactos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    div {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 2rem;
+       
+    }
+    .logos {
+        width: 4rem;
+        height: 4rem;
+        margin: 10px;
+
+    }
+    
+
+}
+    
+
+
+.formularioMayorista {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+
+    }
+}
+
+/* tienda */
+.contenedorPrincipalTienda {
+display: flex;
+flex-direction: column;
+
+}
+
+.contenedorUno {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorDos {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+
+.contenedorTres {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+/** compras */
+.direccion {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.pagos {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+}
+
+.contenedorComprar {
+
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.carrusel{
+    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 25px auto;
+
+}
+
+/** Footer */
+
+
+footer {
+    
+    .logos {
+
+        width: 4%;
+        height: 4%;
+        margin: 10px;
+    }
+    font-size: 3vh;    
+
+    background-color:rgb(12, 150, 230);
+
+    .pieDePagina {
+
+        display: flex;
+
+        justify-content: space-around;
+        align-items: center;
+      
+    
+    }
+
+    p {
+        display: flex;
+
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .navBar{
+
+        
+        .titulo {
+            font-size: 5vh;
+        }
+        ul {
+            flex-direction: column;
+        }
+
+        img {
+
+            width: 12vh;
+        }
+     
+    }
+
+    .botonNavBar{
+        display: flex;
+        justify-content: center;
+       
+        a{ 
+        color: rgb(12, 150, 230);
+       }
+    
+        
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: white;
+        font-size: 2vh;
+    }
+
+
+    .subtituloIndex {
+    
+        font-size: 2rem;
+    }
+    
+    
+    .destacadoTienda {
+    flex-direction: column;
+    
+    margin: 3rem;
+
+    }
+
+    /* Tienda */
+    .contenedorPrincipalTienda
+    .contenedorUno {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .contenedorDos {
+      
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .contenedorTres {
+    
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer {
+    
+        .logos {
+    
+            width: 4vh;
+            height: 4vh;
+            margin: 10px;
+        }
+        font-size: 2vh;    
+    
+        background-color:rgb(12, 150, 230);
+    
+        .pieDePagina {
+    
+            display: flex;
+    
+            justify-content: space-around;
+            align-items: center;
+          
+        
+        }
+    
+        p {
+            display: flex;
+    
+            justify-content: center;
+        }
+    }
+  
+    
+}
+
+
+@media (max-width: 320px) {
+
+    .navBar{
+
+        flex-direction: column;
+        align-items: center;
+        .titulo {
+            font-size: 3vh;
+        }
+        ul {
+            flex-direction: column;
+            
+        }
+
+        img {
+
+            width: 8vh;
+        }
+     
+    }
+
+
+    .cardTienda {
+
+        width: 18rem;
+     
+    
+            .imgCamisetas{
+    
+                width: 8rem;
+                height: 12rem;
+                padding: 5px;
+                margin: 5px;
+                border-radius: 2rem;
+                
+            }
+    
+        
+            
+            border-radius: 3rem;
+            margin: 7px;
+            padding: 7px;
+    
+            ul {
+    
+                margin-right: 1rem;
+                margin-left: 1rem;
+    
+            }
+
+        }
+
+
+        .botonVerMas{
+
+        
+            
+        
+            width: 20rem;
+        
+            padding: 2rem;
+            margin: 1rem;
+           
+            font-size: 1.5rem;
+        
+        
+        
+        
+        }
+
+
+    footer {
+    
+        .logos {
+    
+            width: 2vh;
+            height: 2vh;
+            margin: 5px;
+        }
+        font-size: 1vh;    
+    
+        background-color:rgb(12, 150, 230);
+    
+        .pieDePagina {
+    
+            flex-direction: column;
+          
+        
+        }
+    
+        p {
+            align-items: center;
+        }
+    }
+  
+
+}
+
+
+
+
