@@ -1,0 +1,29 @@
+
+/** Footer */
+@import "../utilities/variables.scss";
+@import "../utilities/extends.scss";
+@import "../utilities/mixing.scss";
+
+footer {
+    
+    .logos {
+        @include tamañoLogos (4%,4%,10px);
+      
+    }
+    font-size: 3vh;    
+
+    background-color:$colorPrimario;
+
+    .pieDePagina {
+        @include flexCompuesto(row,space-around,center);
+       
+      
+    
+    }
+
+    p {
+        display: flex;
+
+        justify-content: center;
+    }
+}

@@ -1,0 +1,38 @@
+/** compras */
+@import "../utilities/variables.scss";
+@import "../utilities/extends.scss";
+@import "../utilities/mixing.scss";
+
+
+.direccion {
+
+    @extend %flexColum;
+   
+    form {
+        @extend %flexColum;
+    
+    }
+    }
+    
+    .pagos {
+    
+        @extend %flexColum;
+    
+    
+    form {
+        @extend %flexColum;
+    
+    
+    }
+    
+    }
+    
+    .contenedorComprar {
+    
+        display: flex;
+        justify-content: center;
+
+      
+    
+       
+    }

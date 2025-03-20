@@ -1,0 +1,61 @@
+/** Header*/
+@import "../utilities/variables.scss";
+@import "../utilities/extends.scss";
+@import "../utilities/mixing.scss";
+.navBar {
+
+  @extend %flexHorizontal;
+
+    .titulo {
+        
+        font-size:  10vh;
+        }
+
+    background-color: $colorPrimario;
+ 
+     color: white;
+
+
+   
+   
+     ul {
+       
+        
+        display: flex;
+
+        
+    }
+   
+
+    img {
+       @include tamañoImagen (7%,10%,10px,5px);
+       
+
+    }
+
+   
+}
+
+.botonNavBar{
+    list-style-type: none;
+    a{text-decoration: none;
+        color: inherit;    }
+
+
+    color: $colorPrimario;
+
+
+   
+
+    @include tamañoBoton (10px,10px,5px,3vh);
+    background-color: white;
+   
+}
+
+
+
+.header {
+
+    background-color: $colorPrimario;
+
+}

@@ -1,0 +1,53 @@
+@mixin tamañoImagen ($width,$heigth,$margin,$border){
+
+    width: $width;
+    height: $heigth;
+    margin:$margin;
+    border-radius: $border;
+    
+
+
+
+}
+
+@mixin tamañoBoton ($margin,$padding,$border,$font) {
+
+    margin: $margin;
+    padding: $padding;
+    border-radius: $border;
+    font-size: $font;
+}
+
+@mixin subtituloCompuesto ($justify,$font) {
+    display: flex;
+    justify-content: $justify;
+    font-size: $font;
+
+}
+
+
+@mixin tamañoCard ($with,$border,$margin,$padding) {
+
+    width: $with;
+    border-radius: $border;
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin flexCompuesto ($direccion,$justify,$aling) {
+    display: flex;
+
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+
+@mixin tamañoLogos ($width,$heigth,$margin) {
+
+
+    width: $width;
+    height: $heigth;
+    margin: $margin;
+    
+}

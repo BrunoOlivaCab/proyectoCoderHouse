@@ -1,0 +1,39 @@
+
+@import "../utilities/variables.scss";
+@import "../utilities/extends.scss";
+@import "../utilities/mixing.scss";
+
+.contactos {
+    @include flexCompuesto(row,space-around,center);
+   
+    div{
+
+        @include flexCompuesto(row,center,center);
+
+        font-size: 2rem;
+       
+    }
+    .logos {
+       @include tamañoLogos (4rem,4rem,10px);
+        
+       
+
+    }
+    
+
+}
+    
+
+
+.formularioMayorista {
+
+  
+    @extend %flexColum;
+    background-color: rgb(255, 255, 255);
+
+    form {
+        @extend %flexColum;
+        padding: 1rem;
+
+    }
+}

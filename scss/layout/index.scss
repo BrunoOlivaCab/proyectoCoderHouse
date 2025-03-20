@@ -1,0 +1,82 @@
+@import "../utilities/variables.scss";
+@import "../utilities/extends.scss";
+@import "../utilities/mixing.scss";
+
+.subtituloIndex {
+   @include subtituloCompuesto(center,4rem);
+   
+}
+
+
+.destacadoTienda {
+@extend %flexHorizontal;
+margin: 5rem;
+
+}
+.cardTienda {
+
+   
+    @include tamañoCard (25rem,3rem,10px,10px);
+
+        .imgCamisetas{
+
+            
+            @include tamañoImagen (15rem,20rem,20px,2rem);
+           
+            
+        }
+
+        @extend %flexColum;
+        
+        background-color:$colorPrimario; 
+       
+
+        ul {
+
+            margin-right: 3rem;
+            margin-left: 3rem;
+
+        }
+      
+
+}
+
+.botonComprar {
+   color: $colorPrimario;
+   text-decoration: none;   
+   color: inherit;    
+    background-color: whitesmoke;
+   
+
+    @include tamañoBoton (1rem,2rem,1rem,1.2rem);
+
+    color:$colorPrimario;
+ 
+
+
+}
+.contenedorVerMas {
+    @include flexCompuesto (row,center,center);
+ 
+}
+.botonVerMas{
+
+    @extend %flexHorizontal;
+    
+    text-decoration: none;
+    color: inherit;    
+    
+    
+    
+    background-color: $colorPrimario;
+
+  
+    color: white;
+
+    @include tamañoBoton (2rem,3rem,1rem,3.5rem);
+    
+
+
+
+}
+

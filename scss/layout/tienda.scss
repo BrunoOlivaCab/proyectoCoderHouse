@@ -1,0 +1,24 @@
+/* tienda */
+.contenedorPrincipalTienda {
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .contenedorUno {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .contenedorDos {
+        display: flex;
+    
+        justify-content: space-around;
+    }
+    
+    
+    .contenedorTres {
+    
+        display: flex;
+        justify-content: space-around;
+    }
