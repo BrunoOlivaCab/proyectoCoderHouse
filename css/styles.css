@@ -61,7 +61,7 @@
 .subtituloIndex {
   display: flex;
   justify-content: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .destacadoTienda {
@@ -110,10 +110,10 @@
   color: inherit;
   background-color: rgb(12, 150, 230);
   color: white;
-  margin: 2rem;
-  padding: 3rem;
+  margin: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 /* tienda */
@@ -179,18 +179,12 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-.contactos div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   font-size: 2rem;
 }
 .contactos .logos {
   width: 4rem;
   height: 4rem;
-  margin: 10px;
+  margin: 1px;
 }
 
 .formularioMayorista {
@@ -256,16 +250,10 @@ footer p {
     width: 12vh;
   }
   .botonNavBar {
-    display: flex;
-    justify-content: center;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
-    background-color: white;
     font-size: 2vh;
-  }
-  .botonNavBar a {
-    color: rgb(12, 150, 230);
   }
   .subtituloIndex {
     font-size: 2rem;
@@ -275,29 +263,38 @@ footer p {
     margin: 3rem;
   }
   /* Tienda */
-  .contenedorPrincipalTienda .contenedorUno {
+  .contenedorUno {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .contenedorDos {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .contenedorTres {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
-  .contactos div {
+  .contactos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     font-size: 1rem;
   }
   .contactos .logos {
-    width: 3rem;
-    height: 3rem;
-    margin: 10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 8px;
   }
   footer {
     font-size: 2vh;
-    background-color: rgb(12, 150, 230);
   }
   footer .logos {
     width: 4vh;
@@ -306,6 +303,7 @@ footer p {
   }
   footer .pieDePagina {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
@@ -329,7 +327,7 @@ footer p {
     width: 8vh;
   }
   .cardTienda {
-    width: 18rem;
+    width: 18em;
     border-radius: 3rem;
     margin: 7px;
     padding: 7px;
@@ -337,7 +335,6 @@ footer p {
   .cardTienda .imgCamisetas {
     width: 8rem;
     height: 12rem;
-    padding: 5px;
     margin: 5px;
     border-radius: 2rem;
   }
@@ -346,9 +343,9 @@ footer p {
     margin-left: 1rem;
   }
   .botonVerMas {
-    width: 20rem;
+    margin: 20rem;
     padding: 2rem;
-    margin: 1rem;
+    border-radius: 1rem;
     font-size: 1.5rem;
   }
   .contactos {
@@ -385,6 +382,10 @@ footer p {
     align-items: center;
   }
 }
+* {
+  font-family: "Poppins", serif;
+}
+
 .main {
   background-color: rgba(146, 224, 248, 0.39);
 }

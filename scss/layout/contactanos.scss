@@ -6,21 +6,23 @@
 .contactos {
     @include flexCompuesto(row,space-around,center);
    
-    div{
 
-        @include flexCompuesto(row,center,center);
+   
+   
+   
 
         font-size: 2rem;
        
-    }
+    
     .logos {
-       @include tamañoLogos (4rem,4rem,10px);
+     
+       @include tamañoLogos (4rem,4rem,1px);
         
        
 
     }
     
-
+    
 }
     
 

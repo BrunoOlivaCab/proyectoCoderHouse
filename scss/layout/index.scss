@@ -3,7 +3,7 @@
 @import "../utilities/mixing.scss";
 
 .subtituloIndex {
-   @include subtituloCompuesto(center,4rem);
+   @include subtituloCompuesto(center,3rem);
    
 }
 
@@ -73,7 +73,7 @@ margin: 5rem;
   
     color: white;
 
-    @include tamañoBoton (2rem,3rem,1rem,3.5rem);
+    @include tamañoBoton (1rem,2rem,1rem,2.5rem);
     
 
 
