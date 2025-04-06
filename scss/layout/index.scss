@@ -46,12 +46,21 @@ margin: 5rem;
    text-decoration: none;   
    color: inherit;    
     background-color: whitesmoke;
+
    
 
     @include tamañoBoton (1rem,2rem,1rem,1.2rem);
 
     color:$colorPrimario;
- 
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+    
+    &:hover {
+        animation: animacion 2s ease-out 3;
+        
+      }
 
 
 }
@@ -74,9 +83,14 @@ margin: 5rem;
     color: white;
 
     @include tamañoBoton (1rem,2rem,1rem,2.5rem);
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
     
-
-
-
+    &:hover {
+        animation: animacion 2s ease-out 3;
+        
+      }
 }
 

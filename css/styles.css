@@ -11,6 +11,17 @@
   align-items: center;
 }
 
+@keyframes animacion {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .navBar {
   background-color: rgb(12, 150, 230);
   color: white;
@@ -58,6 +69,17 @@
   align-items: center;
 }
 
+@keyframes animacion {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .subtituloIndex {
   display: flex;
   justify-content: center;
@@ -96,6 +118,11 @@
   border-radius: 1rem;
   font-size: 1.2rem;
   color: rgb(12, 150, 230);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.botonComprar:hover {
+  animation: animacion 2s ease-out 3;
 }
 
 .contenedorVerMas {
@@ -114,6 +141,11 @@
   padding: 2rem;
   border-radius: 1rem;
   font-size: 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.botonVerMas:hover {
+  animation: animacion 2s ease-out 3;
 }
 
 /* tienda */
@@ -150,6 +182,17 @@
   align-items: center;
 }
 
+@keyframes animacion {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .contenedorComprar {
   display: flex;
   justify-content: center;
@@ -174,6 +217,17 @@
   align-items: center;
 }
 
+@keyframes animacion {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .contactos {
   display: flex;
   flex-direction: row;
@@ -207,6 +261,17 @@
   align-items: center;
 }
 
+@keyframes animacion {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 footer {
   font-size: 3vh;
   background-color: rgb(12, 150, 230);
@@ -239,6 +304,17 @@ footer p {
   align-items: center;
 }
 
+@keyframes animacion {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width: 800px) {
   .navBar .titulo {
     font-size: 5vh;
@@ -343,10 +419,10 @@ footer p {
     margin-left: 1rem;
   }
   .botonVerMas {
-    margin: 20rem;
+    margin: 10rem;
     padding: 2rem;
     border-radius: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .contactos {
     display: flex;
